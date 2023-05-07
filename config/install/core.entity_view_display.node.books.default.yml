@@ -1,0 +1,21 @@
+uuid: a595ff44-49ab-441b-a110-0fe643212367
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.books.body
+    - field.field.node.books.field_author
+    - field.field.node.books.field_book_image
+    - node.type.books
+  module:
+    - user
+id: node.books.default
+targetEntityType: node
+bundle: books
+mode: default
+content: {  }
+hidden:
+  body: true
+  field_author: true
+  field_book_image: true
+  links: true

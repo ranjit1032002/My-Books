@@ -1,0 +1,8 @@
+name: My Books
+type: module
+description: Display Your Favourite Books With Information.
+package: custom
+core_version_requirement: ^9 || ^10
+
+libraries:
+  - my_books/global-css

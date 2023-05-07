@@ -1,0 +1,20 @@
+uuid: fac47a99-f87a-4e25-b6bd-51b23c6dd68f
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_books
+  theme:
+    - olivero
+id: olivero_mybooks
+theme: olivero
+region: content
+weight: -7
+provider: null
+plugin: my_books
+settings:
+  id: my_books
+  label: 'My Books'
+  label_display: visible
+  provider: my_books
+visibility: {  }

@@ -1,0 +1,4 @@
+services:
+  mybooks.query_builder:
+    class: Drupal\my_books\Utils\MyBooksQueryBuilder
+    arguments: ['@entity_type.manager']

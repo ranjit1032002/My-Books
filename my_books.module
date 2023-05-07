@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function my_books_theme() {
+  return [
+    'my_books' => [
+      'variables' => [
+        'data' => [],
+      ],
+    ],
+  ];
+}
+
+function my_books_preprocess_block(&$variables) {
+  if ($variables['plugin_id'] == 'my_books') {
+    $variables['#attached']['library'][] = 'my_books/global-css';
+  }
+}
